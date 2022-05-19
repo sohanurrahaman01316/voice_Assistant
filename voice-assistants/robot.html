@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal robot</title>
+    <link rel="stylesheet" href="robot.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="robot_container">
+      <h2>Personal Assistant by Raihan Ahmed</h2>
+      <div class="micro">
+        <i
+          class="fa fa-microphone microphone"
+          id="microPhone"
+          onclick="recognition.start()"
+        ></i>
+      </div>
+
+      <h4 id="user_voice" style="margin-top: 50px;"></h4>
+      <h4 id="ai_voice"></h4>
+    </div>
+
+    <div class="all">
+
+      <div class="hair_back"></div>
+      <div class="hair_front1"></div>
+      <div class="hair_front2"></div>
+      <div class="face">
+        <div class="eye"></div>
+        <div class="mouth"></div>
+      </div>
+  
+      <div class="bod">
+        <div class="neck"></div>
+        <div class="appraon"></div>
+      </div>
+  
+      <div class="hand1"></div>
+      <div class="hand2"></div>
+      <div class="belt"></div>
+      <div class="lower"></div>
+      <div class="leg1"></div>
+      <div class="leg2"></div>
+      <div class="shoe1"></div>
+      <div class="shoe2"></div>
+
+      <div class="glass">
+        <div class="left_glass"></div>
+        <div class="light_glass"></div>
+      </div>
+      
+    </div>
+
+    
+  
+
+    <script src="robot.js"></script>
+  </body>
+</html>
